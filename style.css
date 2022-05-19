@@ -1,0 +1,37 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(247, 196, 247);
+}
+
+h1 {
+    display: inline-block;
+    color: darkblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    border-bottom-style: dashed;
+    border-color: white;
+}
+header nav {
+    float: right;
+    font-size: larger;
+    color: darkblue;
+    padding: 24px;
+    margin-right: 8px;
+}
+
+header nav a {
+    padding: 12px;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    margin: 10px;
+}
