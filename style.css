@@ -35,3 +35,29 @@ header nav a {
     border-color: white;
     margin: 10px;
 }
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: dashed;
+    border-color: white;
+    margin: 24px;
+    padding: 16px;
+}
+
+.about {
+    display: flex;
+    border-style: dashed;
+}
+.grad {
+    height: 200px;
+    align
+}
+
+p {
+    width: 50%;
+}
+
+.largest{
+    height: 650px;
+}
