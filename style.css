@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    color: darkblue;
 }
 
 body {
@@ -8,8 +9,7 @@ body {
 }
 
 h1 {
-    display: inline-block;
-    color: darkblue;
+    display: inline-block;   
 }
 
 a {
@@ -45,8 +45,10 @@ header nav a {
     padding: 16px;
 }
 
-.about {
+#about {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-style: dashed;
 }
 .grad {
@@ -56,8 +58,35 @@ header nav a {
 
 p {
     width: 50%;
+    text-align: center;
 }
 
 .largest{
-    height: 650px;
+    height: 750px;
+}
+
+.image {
+    height: 200px;
+}
+
+figcaption {
+    border-style: solid;
+    border-color: darkblue;
+    margin: 0px 10px
+}
+figure {
+    border-style: dashed;
+    overflow: hidden;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+footer {
+    text-align: center;
+
 }
