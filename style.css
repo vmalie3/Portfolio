@@ -23,7 +23,6 @@ header {
 header nav {
     float: right;
     font-size: larger;
-    color: darkblue;
     padding: 24px;
     margin-right: 8px;
 }
@@ -39,6 +38,7 @@ header nav a {
 .card {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     border-style: dashed;
     border-color: white;
     margin: 24px;
@@ -59,34 +59,48 @@ header nav a {
 p {
     width: 50%;
     text-align: center;
+    margin: 70px;
 }
 
 .largest{
-    height: 750px;
+    width: 1000px;
+    display: flex;
 }
 
 .image {
-    height: 200px;
+    width: 400px;
 }
 
 figcaption {
     border-style: solid;
     border-color: darkblue;
-    margin: 0px 10px
+    margin: 0px 10px;
+    padding: 4px;
+    text-align: center;
 }
+
 figure {
-    border-style: dashed;
-    overflow: hidden;
+    /*border-style: dashed;
+    overflow: hidden;*/
+    margin: 10px;
 }
 
 #work {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
+    
 }
 
+#contact {
+    display: flex;
+    justify-content: left;
+}
+
+#navc {
+    margin: 20px;
+}
 
 footer {
     text-align: center;
-
 }
