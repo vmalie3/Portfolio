@@ -16,10 +16,10 @@ At the bottom, I included a contact me section with links to my email, LinkedIn 
 
 ## Visuals
 
-![Portfolio](./images/Portfolioscrn.png)
+![Portfolio](./images/newportfolioscrn.png)
 
 ## Resources
 
 [Live Site](https://vmalie3.github.io/portfolio/)
 
-[Repository](https://github.com/vmalie3/portfolio/settings/pages)
+[Repository](https://github.com/vmalie3/portfolio)

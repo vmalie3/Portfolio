@@ -19,9 +19,11 @@ a {
 header {
     border-bottom-style: dashed;
     border-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header nav {
-    float: right;
     font-size: larger;
     padding: 24px;
     margin-right: 8px;
@@ -63,12 +65,14 @@ p {
 }
 
 .largest{
-    width: 1000px;
+    width: 100%;
     display: flex;
 }
 
 .image {
-    width: 400px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 figcaption {
@@ -88,19 +92,38 @@ figure {
 #work {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 
 #contact {
-    display: flex;
-    justify-content: left;
+    align-items: center;
 }
 
 #navc {
-    margin: 20px;
-}
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-grow: 1;
+};
 
 footer {
     text-align: center;
+}
+
+.workimg {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .workimg {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .workimg {
+        width: 30%
+    }
 }
